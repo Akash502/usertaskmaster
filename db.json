@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Akash",
+      "password": "Akash",
+      "token": "fake-jwt-token-1"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "password2",
+      "token": "fake-jwt-token-2"
+    },
+    {
+      "id": "ee68",
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": "d470",
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": "c900",
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": "633c",
+      "username": "akashshetty@truckstop.com",
+      "password": "123456"
+    },
+    {
+      "id": "ab12",
+      "username": "akashshetty@truckstop.com",
+      "password": "123456"
+    },
+    {
+      "id": "1dac",
+      "username": "akashshetty@truckstop.com",
+      "password": "123456"
+    },
+    {
+      "id": "f6af",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "2537",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "0319",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "da4c",
+      "username": "akashshetty@truckstop.com",
+      "password": "123456"
+    },
+    {
+      "id": "08bd",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "1570",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "6666",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "ee81",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "1991",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "9468",
+      "username": "Akash",
+      "password": "akash"
+    },
+    {
+      "id": "d7d7",
+      "username": "Akash",
+      "password": "akash"
+    },
+    {
+      "id": "b734",
+      "username": "Akash",
+      "password": "akash"
+    },
+    {
+      "id": "ae9a",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "dfd1",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "a349",
+      "username": "Akash",
+      "password": "Akash"
+    },
+    {
+      "id": "93fc",
+      "username": "Akash",
+      "password": "12345"
+    },
+    {
+      "id": "3204",
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": "b4d4",
+      "username": "Akash",
+      "password": "akash"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Completed truckstop deployment",
+      "description": "Take a QA databse backup and update the update the latest to dev server,Take a QA databse backup and update the update the latest to dev server,Take a QA databse backup and update the update the latest to dev server",
+      "priority": "High",
+      "dueDate": "2025-06-05",
+      "color": "hsl(138, 70%, 90%)",
+      "id": "1",
+      "status": "In Progress",
+      "createdAt": "2025-05-05",
+      "updatedAt": "2025-06-05"
+    },
+    {
+      "title": "Task 3",
+      "description": "Description of Task 3",
+      "priority": "High",
+      "dueDate": "2025-06-05",
+      "color": "hsl(339, 70%, 90%)",
+      "id": "3",
+      "status": "In Progress",
+      "createdAt": "2025-05-05",
+      "updatedAt": "2025-06-05"
+    },
+    {
+      "id": "252b",
+      "title": "Daily Standup Update",
+      "description": "give daily stand-up update",
+      "priority": "High",
+      "dueDate": null,
+      "color": "#f0f0f0"
+    },
+    {
+      "id": "e5bc",
+      "title": "Create a DB",
+      "description": "Create a db for sample Project",
+      "priority": "Low",
+      "dueDate": "",
+      "color": "#f0f0f0"
+    }
+  ]
+}
