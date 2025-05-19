@@ -1,0 +1,91 @@
+//Navbar Container */
+.navbar {
+  background: linear-gradient(to right, #0069d9, #007bff);
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 12px 12px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Brand Styling */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white !important;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+/* Nav Links */
+.navbar .navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Nav Link Hover */
+.navbar .navbar-nav .nav-link:hover {
+  color: #e2e6ea !important;
+  transform: translateY(-2px);
+}
+
+/* Active Link Styling (Optional) */
+.navbar .navbar-nav .nav-link.active {
+  color: #ffc107 !important;
+}
+
+/* Toggler Icon */
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  position: relative;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+
+// .navbar {
+
+//   background: linear-gradient(to right, #0069d9, #007bff);
+//   padding: 0.75rem 1.5rem;
+//   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//   border-radius: 0 0 12px 12px;
+//   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   height: 56px;
+//   background-color: #1976d2;
+//   color: white;
+//   display: flex;
+//   align-items: center;
+//   padding: 0 1rem;
+//   z-index: 1000;
+// }
