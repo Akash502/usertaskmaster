@@ -29,6 +29,7 @@ describe('AuthGuard', () => {
     const result = guard.canActivate({} as any, {} as any);
     expect(result).toBeTrue();
   });
+  
 
   it('should block navigation and redirect to login if user is not authenticated', () => {
     authServiceSpy.isAuthenticated.and.returnValue(false);
